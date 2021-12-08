@@ -1,0 +1,79 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+
+
+*{box-sizing: border-box; /* padding: 0;  margin: 0;*/}
+body{
+  display: flex; flex-wrap: wrap; text-align: center; justify-content: center;
+  padding: 0;  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 125%;
+  /*padding: 30px; */
+  /*background-color: darkgray;*/
+  /*width: 100%;*/
+}
+.wrapper{
+  max-width: 960px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.03rem;
+  background-color: white;
+  border:2px solid seagreen;
+}
+body>div>div{width: 100%;}
+img{max-width: 100%; padding: 0.1rem;}
+.logo{border-radius: 50%; padding-top: 2rem}
+p,a{padding: 0.1rem;}
+a{
+  text-decoration: none;
+  color: grey;
+}
+a:hover{color: black;}
+#top{background-color: seagreen; padding-bottom: 0.5rem;}
+.totop{font-size: 3rem; color: seagreen;}
+.connectus, .extlinks{
+  display: flex;  justify-content: space-around; 
+}
+.connectus>a,.extlinks>a{background-color: white;
+  padding: 4px; flex-grow: 1; text-align: center; 
+  border-radius: 4px; text-decoration: none; margin: 4px;
+  font-size: 1.3em;
+}
+.connectus>a:hover, .extlinks>a:hover{box-shadow: 0 5px 7px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22);}
+.extlinks{flex-wrap: wrap;}
+
+.certification{display:flex; justify-content: space-between; width: 100%; flex-wrap: wrap;}
+.certification a{max-width:24%;}
+.certification img{width:100%;}
+
+.portfolio>div{display:flex; justify-content: space-between; width: 100%; flex-wrap: wrap;}
+.portfolio a{max-width:32%;}
+.portfolio img{width:100%;}
+
+.certification img:hover, .portfolio img:hover{box-shadow: 0 4px 4px rgba(0,0,0,0.22);}
