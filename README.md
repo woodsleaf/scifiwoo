@@ -7,3 +7,5 @@ This is a basic static HTML starter project you can build on however you like. N
 ← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
 
 ← `index.html`: This is the main HTML page for your site.
+
+make qr-code https://www.stqr.ru/generator/url
