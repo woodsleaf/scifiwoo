@@ -1,0 +1,14 @@
+lockfileVersion: 5.3
+
+specifiers:
+  lazyloadxt: ^1.1.0
+
+dependencies:
+  lazyloadxt: 1.1.0
+
+packages:
+
+  /lazyloadxt/1.1.0:
+    resolution: {integrity: sha1-5l60P5v1QH5Kjro16tvn3dnHmfk=}
+    engines: {node: '>= 0.8.0'}
+    dev: false
