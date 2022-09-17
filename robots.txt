@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Host: https://angelofbeauty.ml/
+Crawl-delay: 5
+Disallow: /.gitignore
+Disallow: /.git
+Sitemap: /sitemap.xml

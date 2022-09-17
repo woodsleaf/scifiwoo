@@ -1,4 +1,4 @@
-//spoiler
+//*****************Spoilers*****************
 /*html
 <button class="acc" onclick="acc(this)">Кнопка</button>
 <div class="accD dn">

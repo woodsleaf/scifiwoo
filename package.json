@@ -1,0 +1,14 @@
+{
+  "name": "angelofbeauty",
+  "version": "1.0.0",
+  "description": "landing page",
+  "repository": "",
+  "main": "index.html",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "lazyloadxt": "^1.1.0"
+  }
+}

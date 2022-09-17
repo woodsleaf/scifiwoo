@@ -1,0 +1,17 @@
+          <script>
+            let youtube = ['pk5bokWTTJ4', 'oFYwQmDw5OU', 'GHYCqAXw190', 'l-PvDiuyv6c', 'AruKn63Asz4',
+              'ez5mhS2Fs-c', 'aIlcpGh1QUk', '8M1hKa0ZvQE', 'd_-KIos07Gw'];
+            for(let i in youtube) {
+              let video = youtube[i]; //width="300" height="225"
+              /*
+              myDiv1.innerHTML = '<div class="vidWrapper"><div class="h_iframe"><img class="ratio" src="./img/ratio16x9.png" alt=""/><p><iframe data-src="https://www.youtube.com/embed/'
+                + video
+                + '?rel=0"'
+                + ' frameborder="0" allowfullscreen></iframe></p></div></div>'; 
+              */
+              
+                document.write('<div class="vidWrapper"><div class="h_iframe"><img class="ratio" src="./img/ratio16x9.png" alt=""/><p><iframe data-src="https://www.youtube.com/embed/'+video+'?rel=0"'
+                                   +' frameborder="0" allowfullscreen></iframe></p></div></div>');
+              
+            }
+          </script>

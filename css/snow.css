@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ -ms-background-size: cover;
+ background-size: cover;
+}
+
+/*Keyframes*/  
+@keyframes snow1 {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-moz-keyframes snow1 {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-webkit-keyframes snow1 {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+@-ms-keyframes snow1 {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+div#wrapper {
+  background-image: url('../img/snow/snowflake1.png'), url('../img/snow/snowflake3.png'), url('../img/snow/snowflake2.png');
+  height:2000%;
+  -webkit-animation: snow1 20s linear infinite;
+  -moz-animation: snow1 20s linear infinite;
+  -ms-animation: snow1 20s linear infinite;
+  animation: snow1 20s linear infinite;
+}
+
+#container{
+/*  margin: 0 auto;*/
+position: relative;
+}

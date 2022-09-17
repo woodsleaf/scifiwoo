@@ -9,3 +9,5 @@ This is a basic static HTML starter project you can build on however you like. N
 ← `index.html`: This is the main HTML page for your site.
 
 make qr-code https://www.stqr.ru/generator/url
+
+make icons https://icomoon.io/app/#/select
